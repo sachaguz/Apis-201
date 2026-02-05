@@ -1,8 +1,8 @@
-from fastapi import APIRouter, Query, HTTPException
+from fastapi import APIRouter, Query
 
 router = APIRouter(
     prefix="/comics",
-    tags=["Tienda de Cómics"]
+    tags=["Cómics"]
 )
 
 # Base de datos simulada de Cómics
